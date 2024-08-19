@@ -1004,6 +1004,11 @@ h3{
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.shadow-neutral-100{
+  --tw-shadow-color: #f5f5f5;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
 .shadow-neutral-200{
   --tw-shadow-color: #e5e5e5;
   --tw-shadow: var(--tw-shadow-colored);
@@ -1016,11 +1021,6 @@ h3{
 
 .shadow-slate-50{
   --tw-shadow-color: #f8fafc;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-neutral-100{
-  --tw-shadow-color: #f5f5f5;
   --tw-shadow: var(--tw-shadow-colored);
 }
 
